@@ -1,0 +1,35 @@
+{
+  "name": "loja-carros",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiuzaB/projeto-eletiva-scripts2024.git"
+  },
+  "author": "Bruno Fiuza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiuzaB/projeto-eletiva-scripts2024/issues"
+  },
+  "homepage": "https://github.com/fiuzaB/projeto-eletiva-scripts2024#readme"
+}
