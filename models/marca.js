@@ -1,13 +1,13 @@
 const Sequelize = require('sequelize');
 const connection = require('../database/database');
 
-const Editora = connection.define('editoras', {
+const Marca = connection.define('marcas', {
     nome: {
         type: Sequelize.STRING,
         allowNull: false
     }
 });
 
-//Editora.sync({force: true});
+Marca.sync({ alter: true });
 
-module.exports = Editora;
+module.exports = Marca;

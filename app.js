@@ -6,8 +6,8 @@ const checkLogin = require('./middleware/checkLogin');
 
 // Models
 const Usuario = require('./models/usuario');
-const Autor = require('./models/autor');
-const Editora = require('./models/editora');
+const Autor = require('./models/carro');
+const Editora = require('./models/marca');
 const Genero = require('./models/genero');
 const Livro = require('./models/livro');
 
@@ -52,7 +52,7 @@ app.use('/', checkLogin, (req, res, next) => {
     res.render('index');
 });
 
-// usuario admin@gmail.com
-// senha senha@123
+// usuario bruno_2555@hotmail.com
+// senha 102030
 
 module.exports = app;

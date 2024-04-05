@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const connection = require('../database/database');
-const Autor = require('./autor');
-const Editora = require('./editora');
+const Autor = require('./carro');
+const Editora = require('./marca');
 const Genero = require('./genero');
 
 const Livro = connection.define('lojaCarros', {
